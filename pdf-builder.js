@@ -79,7 +79,7 @@
             html += fillInBlock('Übung 3 — Passiv mit Modalverben 🔧', 'Modalverb + Partizip II + werden (la final). Atenție: „werden", nu „worden".', ex3Data);
         }
         if (typeof ex4Data !== 'undefined') {
-            html += diktatBlock('Übung 4 — Diktat (Hörverstehen, voce Hedda)', 'Atenție la timp (wird/wurde/ist…worden) și la worden vs. werden.', ex4Data);
+            html += diktatBlock('Übung 4 — Diktat (Hörverstehen)', 'Atenție la timp (wird/wurde/ist…worden) și la worden vs. werden.', ex4Data);
         }
         if (typeof ex5Data !== 'undefined') {
             html += translateBlock('Übung 5 — Traducere RO → DE', 'Mix: Passiv Präsens/Präteritum/Perfekt · mit Modalverben · agent durch.', ex5Data);
