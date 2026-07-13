@@ -40,7 +40,7 @@ function buildEx1() {
             <div class="input-group">
                 <label>${it.sentence}</label>
                 <small style="color:#5A5147">💬 ${it.translation}</small>
-                <input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" id="ex1-${it.id}" placeholder="wird / wurde / werden / wurden">
+                <input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" id="ex1-${it.id}" placeholder="...">
             </div>
             <div class="feedback" id="ex1-f${it.id}"></div>
         </div>`;
@@ -93,7 +93,7 @@ function buildEx2() {
             <div class="input-group">
                 <label>${it.sentence}</label>
                 <small style="color:#5A5147">💬 ${it.translation}</small>
-                <input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" id="ex2-${it.id}" placeholder="worden / geworden">
+                <input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" id="ex2-${it.id}" placeholder="...">
             </div>
             <div class="feedback" id="ex2-f${it.id}"></div>
         </div>`;
